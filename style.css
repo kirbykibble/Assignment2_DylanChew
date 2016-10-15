@@ -1,0 +1,91 @@
+#outer {
+    display: flex;
+    flex-flow: row;
+    padding: 20px;
+    width: auto;
+    justify-content: space-between;
+}
+#inner {
+    display: flex;
+    flex-flow: row;
+}
+#addButton {
+    width: 5vw;
+    height: 50px;
+}
+#clearButton {
+    width: 5vw;
+    height: 50px;
+
+}
+#formContainer {
+    display:flex;
+    flex-flow: column;
+}
+.formStyle {
+    margin: 2px;
+}
+
+/*new stuff styling*/
+/*trying again*/
+#newDiv {
+    width: 80%;
+    margin: auto 0;
+    border:solid black 1px;
+    display: flex;
+    flex-flow: row wrap;
+    transition: all ease 0.2s;
+}
+
+#innerRight {
+    display: flex;
+    flex-flow: column;
+    transition: all ease 0.2s;
+}
+
+#newImg {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    transition: all ease 0.2s;
+}
+
+#adds {
+
+}
+
+
+
+
+/*
+#newOuter {
+    width: 80vw;
+    height: 100px;
+    border: solid black 1px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+}
+
+#innerLeft {
+    width: 30%;
+    height: 100px;
+    background-color: black;
+}
+
+#innerRight {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    border: solid black 1px;
+}
+
+#header {
+    border: solid black 1px;
+}
+
+#innerDiv {
+    border: solid black 1px;
+}*/
